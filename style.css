@@ -69,7 +69,7 @@
     }
     .home{
         
-        grid-template-columns: 100%
+        width: 400px;
         
     }
     .naslovOwn{
@@ -78,6 +78,9 @@
     .Own{
         position: relative;
         
+    }
+    .navbar{
+        width: 400px;
     }
     
 }
