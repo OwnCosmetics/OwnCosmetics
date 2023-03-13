@@ -50,6 +50,7 @@ html{
 .home{
     background-image: url(images/home-bg.jpg);
     height: 91vh;
+    
 }
 .naslovOwn{
     position: relative;
