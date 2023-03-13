@@ -4,6 +4,7 @@
 *{
     margin: 0;
 }
+
 .navbar{
     background-color: lightgreen;
     height: 80px;
@@ -59,7 +60,7 @@
     font-size: 100px;
     font-family: 'Lobster', cursive;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (min-width: 400px){
     .lista{
         opacity: 0;
     }
