@@ -4,12 +4,17 @@
 *{
     margin: 0;
 }
-
+html{
+    scroll-behavior: smooth ;
+}
 .navbar{
     background-color: lightgreen;
     height: 80px;
     display: flex;
     color: white;
+    width: 100%;
+
+    position: fixed;
     
 
 }
@@ -49,7 +54,7 @@
 .naslovOwn{
     position: relative;
     top: 100px;
-    font-size: 100px;
+    font-size: 70px;
     font-family: 'Lobster', cursive;
 
     
@@ -60,9 +65,53 @@
     font-size: 100px;
     font-family: 'Lobster', cursive;
 }
-@media all and (min-width: 768px){
-    .container{
-        width: 750px;
-        margin: 0 auto;
-    }
+.produkti{
+    background-color: darkolivegreen;
+    color: white;
+    position: relative;
+    top: 100px;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    transition: ease-in-out 0.5s;
+}
+.produkti:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.onamatxt{
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+}
+.sekcija-produkti{
+    background-color: darkolivegreen;
+    height: 150vh;
+}
+.narandzasti{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    top: 180px;
+    left: 120px;
+}
+.naslov-sekcija-produkti{
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+
+}
+.narandzasti-naslov{
+    position: relative;
+    top: 180px;
+    left: 120px;
+    font-size: 30px;
+
+}
+.narandzasti-opis{
+    position: relative;
+    top: 180px;
+    left: 120px;
+
+    
+
 }
