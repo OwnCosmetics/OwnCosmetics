@@ -68,8 +68,8 @@
         left: 200px;
     }
     .home{
-        width: 100%;
-        overflow: hidden;
+        
+        grid-template-columns: 100%
         
     }
     .naslovOwn{
