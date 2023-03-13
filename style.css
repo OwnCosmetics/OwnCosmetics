@@ -59,3 +59,23 @@
     font-size: 100px;
     font-family: 'Lobster', cursive;
 }
+@media only screen and (max-width: 495px){
+    .lista{
+        opacity: 0;
+    }
+    .logo{
+        position: relative;
+        left: 200px;
+    }
+    .home{
+        width: 100%;
+        
+    }
+    .naslovOwn{
+        opacity: 0;
+    }
+    .Own{
+        position: relative;
+        
+    }
+}
